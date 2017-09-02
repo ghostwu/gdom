@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>后代,子代选择器</title>
+    <script src="../lib/gdom1.0.0.js"></script>
+    <link rel="stylesheet" href="../css/common.css">
+    <script>
+        G(function(){
+            G("body p").css( "border", "2px solid #09f" );
+            // G("body > p").css( "border", "2px solid #09f" );
+        });
+    </script>
+</head>
+<body>
+    <div id="box">
+        <p>gdom是一个dom处理和字符串处理的框架，作者:ghostwu</p>
+        <p>gdom是一个dom处理和字符串处理的框架，作者:ghostwu</p>
+        <p>gdom是一个dom处理和字符串处理的框架，作者:ghostwu</p>
+    </div>
+    <p>gdom是一个dom处理和字符串处理的框架，作者:ghostwu</p>
+    <p>gdom是一个dom处理和字符串处理的框架，作者:ghostwu</p>
+</body>
+</html>
