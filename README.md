@@ -34,7 +34,7 @@ G( "div p:nth-of-type(1)" ).css( "border", "1px solid #09f" );
 ```
 # dom操作
 目前支持的功能有<br>
-#事件相关方法
+# 事件相关方法
 * delegate
 * on
 * hover
