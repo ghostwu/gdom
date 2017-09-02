@@ -32,8 +32,9 @@ G( "div:nth-child(1)").css( "border", "1px solid #09f" );
 G( "div:nth-of-type(1)").css( "border", "1px solid #09f" );
 G( "div p:nth-of-type(1)" ).css( "border", "1px solid #09f" );
 ```
-# dom操作
-目前支持的功能有<br>
+V1.0.0目前支持的功能有
+====================
+事件绑定，选择器，DOM操作，动画，工具方法，插件扩展
 # 事件相关方法
 * delegate
 * on
