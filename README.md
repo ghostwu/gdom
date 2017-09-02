@@ -24,7 +24,7 @@ G( "[id][class]" ).css( "border", "1px solid #09f" );
 G( "[data-target]" ).css( "border", "1px solid #09f" );
 G( "[class*=desc]" ).css( "border", "1px solid #09f" );
 G( "[class^=desc]" ).css( "border", "1px solid #09f" );
-"[class$=desc]" ).css( "border", "1px solid #09f" );
+G( "[class$=desc]" ).css( "border", "1px solid #09f" );
 ```
 * 过滤选择器
 ```
@@ -32,3 +32,60 @@ G( "div:nth-child(1)").css( "border", "1px solid #09f" );
 G( "div:nth-of-type(1)").css( "border", "1px solid #09f" );
 G( "div p:nth-of-type(1)" ).css( "border", "1px solid #09f" );
 ```
+# dom操作
+目前支持的功能有<br>
+#事件相关方法
+* delegate
+* on
+* hover
+# 选择器函数
+* lt
+* gt
+* eq
+# dom与其他操作
+* size
+* before
+* after
+* append
+* prepend
+* addClass
+* removeClass
+* hasClass
+* toggleClass
+* css
+* attr
+* each
+* val
+* html
+* empty
+* find
+* parent
+* children
+* parents
+* siblings
+* next
+* prev
+* get
+* getDom
+* index
+# 动画方法
+* animate
+* show
+* hide
+* toggle
+# 工具方法
+* isNum
+* trimLeft
+* trimRight
+* trim
+* parseHtmlTag
+* isArray
+* toArray
+* flatten
+# 插件扩展
+* extend
+
+
+
+
+
